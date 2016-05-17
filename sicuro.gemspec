@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path('../lib', __FILE__)
-require 'sicuro/version'
+$:.push File.expand_path('../lib', __FILE__) 
 
 Gem::Specification.new do |s|
   s.name        = 'sicuro'
-  s.version     = Sicuro::VERSION
+  s.version     = '0.22.0'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Ellen Marie Dash']
   s.email       = ['me@duckie.co']
